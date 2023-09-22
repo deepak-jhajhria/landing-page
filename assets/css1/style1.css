@@ -1,0 +1,33 @@
+@import url(../css/root.css);
+/* section1 */
+.mw-370{
+    max-width: 370px;
+}
+.prev, .next{
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    border: 1px solid var(--black3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.prev{
+    top: 8%;
+    right: 13%;
+}
+.next{
+    top: 8%;
+    right: 5%;
+}
+/* section2 */
+.mw-400{
+    max-width: 400px;
+}
+.card_sec2{
+    border-radius: 16px;
+border: 2px solid #FFF;
+background: #FAF8ED;
+max-width: 386px;
+min-height: 440px;
+}
