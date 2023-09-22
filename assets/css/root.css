@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Sen:wght@400;500;600;700;800&display=swap');
 :root {
     /* color  */
+    --cream: #FAF8ED;
+    --cream2: #FFD482;
     --black1: #2D3134;
     --black2: #2E476B;
     --orange: #F66F4D;
@@ -10,29 +12,31 @@
     --grey2: #939597;
     --grey3: #676A6C;
 
-
     /* font-size  */
-    --fs-xxs: 12px;
-    --fs-xs: 14px;
-    --fs-sm: 16px;
-    --fs-base: 18px;
-    --fs-lg: 20px;
-    --fs-xl: 21px;
-    --fs-2xl: 24px;
-    --fs-2xl1: 26px;
-    --fs-3xl: 32px;
-    --fs-3xl2: 36px;
-    --fs-4xl: 40px;
-    --fs-4xl2: 46px;
-    --fs-5xl: 56px;
-    --fs-6xl: 64px;
-    --fs-8xl: 84px;
+    --fs-xxs: 10px;
+    --fs-xs: 11px;
+    --fs-sm: 13px;
+    --fs-base: 15px;
+    --fs-lg: 17px;
+    --fs-xl: 19px;
+    --fs-2xl: 18px;
+    --fs-2xl1: 20px;
+    --fs-3xl: 23px;
+    --fs-3xl2: 25px;
+    --fs-4xl: 27px;
+    --fs-4xl2: 32px;
+    --fs-5xl: 36px;
+    --fs-6xl: 46px;
+    --fs-8xl: 45px;
 
 
     /* font-family  */
-    --ff-inter: 'Inter', sans-serif;
-    --ff-sen: 'Sen', sans-serif;
-    --ff-p: 'Poppins', sans-serif;
+    --ff-inter: 'Inter',
+        sans-serif;
+    --ff-sen: 'Sen',
+        sans-serif;
+    --ff-p: 'Poppins',
+        sans-serif;
 
 
 }
@@ -104,6 +108,14 @@
 }
 
 /* font-color  */
+.bg-cream {
+    background-color: var(--cream);
+}
+
+.bg-cream2 {
+    background-color: var(--cream2);
+}
+
 .bs-black1 {
     color: var(--black1);
 }
