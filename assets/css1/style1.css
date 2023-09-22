@@ -1,33 +1,210 @@
 @import url(../css/root.css);
+
+.container-xl{
+    max-width: 1170px !important;
+}
 /* section1 */
-.mw-370{
+.mw-370 {
     max-width: 370px;
 }
-.prev, .next{
+
+.prev,
+.next {
     width: 54px;
     height: 54px;
     border-radius: 50%;
-    border: 1px solid var(--black3);
+    border: 1px solid var(--black1);
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: .4s;
 }
-.prev{
+
+.prev {
     top: 8%;
     right: 13%;
 }
-.next{
+
+.next {
     top: 8%;
     right: 5%;
 }
+.prev:hover{
+    background: var(--black1);
+}
+
+.prev svg path{
+    stroke: var(--black1);
+}
+.prev:hover svg path{
+    stroke: var(--cream);
+}
+.next:hover{
+    background: var(--black1);
+}
+
+.next svg path{
+    stroke: var(--black1);
+}
+.next:hover svg path{
+    stroke: var(--cream);
+}
+.prev1:hover{
+    background: var(--black1);
+}
+
+.prev1 svg path{
+    stroke: var(--black1);
+}
+.prev1:hover svg path{
+    stroke: var(--cream);
+}
+.next1:hover{
+    background: var(--black1);
+}
+
+.next1 svg path{
+    stroke: var(--black1);
+}
+.next1:hover svg path{
+    stroke: var(--cream);
+}
+
 /* section2 */
-.mw-400{
+.mw-400 {
     max-width: 400px;
 }
-.card_sec2{
+.slick-track {
+    display: flex !important;
+}
+.card_sec2 {
     border-radius: 16px;
-border: 2px solid #FFF;
-background: #FAF8ED;
-max-width: 386px;
-min-height: 440px;
+    border: 2px solid var(--cream);
+    background: #FAF8ED;
+    max-width: 376px;
+    min-height: 400px;
+    transition: .4s;
+}
+
+.w-400{
+    width: 346px !important;
+ 
+}
+.slick-initialized .slick-slide {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn1 {
+    border-radius: 46px;
+    border: 1px solid var(--black3);
+    width: 100px;
+    height: 37px;
+    transition: .4s;
+}
+.pb-35{
+    padding-bottom: 35px;
+}
+.custom_container{
+    max-width: 1305px !important;
+
+}
+.prev1, .next1{
+    border-radius: 50%;
+    width: 54px;
+    height: 54px;
+    border: 1px solid var(--black1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .4s;
+}
+.prev1{
+    top: 10%;
+    right: 15%;
+}
+.next1{
+    top: 10%;
+    right: 8%;
+}
+.slider2{
+    overflow: visible;
+}
+.card_sec2:hover{
+    box-shadow: 0px 25px 60px 0px rgba(192, 188, 161, 0.22);
+    border: 2px solid white;
+}
+.btn1:hover{
+    background-color: var(--black1);
+    color: var(--cream);
+}
+.slider2 {
+    z-index: 2;
+  }
+  
+ .slider2 .slick-list{
+    overflow: visible;
+    padding:0 20% 0 0;
+    position: relative;
+  }
+  .ml_5{
+    margin-left: 7%;
+  }
+  
+ .slider2 .slick-list::after {
+    content: ' ';
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 4000px;
+    right: 100%;
+    background-color: var(--cream);
+  }
+/* section3 */
+.card_sec3{
+    max-width: 537px;
+border-radius: 14px;
+background: #FFF;
+padding: 31px;
+}
+.prev2, .next2{
+    border-radius: 50%;
+    width: 40px !important;
+    height: 40px;
+    border: 1px solid var(--black1);
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    transition: .4s;
+}
+.prev2{
+    top: 70%;
+    left: 82%;
+}
+.next2{
+   top: 70%;
+   right: 8%;
+}
+.prev2:hover{
+    background: var(--black1);
+}
+
+.prev2 svg path{
+    stroke: var(--black1);
+}
+.prev2:hover svg path{
+    stroke: var(--cream);
+}
+.next2:hover{
+    background: var(--black1);
+}
+
+.next2 svg path{
+    stroke: var(--black1);
+}
+.next2:hover svg path{
+    stroke: var(--cream);
+}
+.mw-107{
+    max-width: 107px;
 }
