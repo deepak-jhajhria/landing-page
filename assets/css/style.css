@@ -43,6 +43,7 @@ nav ul li a {
 }
 .bookNow svg path {
     fill: #F66F4D;
+    transition: 300ms;
 }
 .bookNow:hover svg path {
     fill: #FFFFFF;
@@ -75,6 +76,21 @@ nav ul li a {
 /* section-2  */
 .max-370 {
     max-width: 370px;
+}
+.visite div p {
+    opacity: 0 !important;
+}
+.visite:hover div p{
+    opacity: 1 !important;
+    transition: 300ms;
+}
+.blur:hover img{
+    opacity: 0.8;
+    transition: 300ms;
+}
+.visit{
+    top: 38%;
+    left: 38%;
 }
 .prev,
 .next {
@@ -170,7 +186,7 @@ nav ul li a {
     border: 2px solid var(--cream);
     background: #FAF8ED;
     max-width: 376px;
-    min-height: 400px;
+    min-height: 420px !important;
     transition: .4s;
 }
 .w-400{
@@ -414,14 +430,14 @@ transition: .4s;
     transition: .4s;
 }
 .span4 {
-    rotate: 45deg;
+    transform: rotate(45deg);
     transition: .4s
 }
 .transition-4 {
     transition: .4s
 }
 .span5 {
-    rotate: -45deg;
+    transform: rotate(-45deg);
     position: relative;
     top: -10px;
     transition: .4s
