@@ -131,7 +131,7 @@
                 <div>
                     <p class="bs-black1 ff-inter fs-2xl fw-semibold lh-base pb-2 ps-4 m-0 ">The Grand Canyon,
                         Arizona</p>
-                    <p class="bs-black4 ff-inter fs-xs fw-normal m-0 pb-35 ps-4">Mountain Hiking Tour</p>
+                    <p class="bs-black4 ff-inter fs-xs fw-normal m-0 pb-35 pb-2 ps-4">Mountain Hiking Tour</p>
                     <div class="d-flex justify-content-between px-4 pb-4">
                         <p class="bs-black1 ff-inter fs-2xl fw-semibold mb-0">$70 <span
                                 class="bs-black4 ff-inter fs-sm fw-normal">/Person </span></p>
@@ -188,7 +188,7 @@
                 <div>
                     <p class="bs-black1 ff-inter fs-2xl fw-semibold lh-base pb-2 ps-4 m-0 ">The Grand Canyon,
                         Arizona</p>
-                    <p class="bs-black4 ff-inter fs-xs fw-normal m-0 pb-35 ps-4">Mountain Hiking Tour</p>
+                    <p class="bs-black4 ff-inter fs-xs fw-normal m-0 pb-35 pb-2 ps-4">Mountain Hiking Tour</p>
                     <div class="d-flex justify-content-between px-4 pb-4">
                         <p class="bs-black1 ff-inter fs-2xl fw-semibold mb-0">$70 <span
                                 class="bs-black4 ff-inter fs-sm fw-normal">/Person </span></p>
@@ -320,7 +320,30 @@
             slidesToScroll: 3,
             prevArrow: '.prev',
             nextArrow: '.next',
-        });
+           
+            responsive: [
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 4,
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2,
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        autoplay:true,
+                        autoplayspeed:2000,
+                    }
+                }
+       ] });
 
         $('.slider2').slick({
             infinite: true,
@@ -328,6 +351,31 @@
             slidesToScroll: 3,
             prevArrow: '.prev1',
             nextArrow: '.next1',
+           
+            responsive: [
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 2,
+                    }
+                },
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll:1,
+                    }
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll :1,
+                        autoplay:true,
+                        autoplayspeed:200,
+                    }
+                }
+       ]
         });
         $('.slider3').slick({
             infinite: true,
@@ -335,6 +383,17 @@
             slidesToScroll: 1,
             prevArrow: '.prev2',
             nextArrow: '.next2',
+            responsive: [
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll :1,
+                        autoplay:true,
+                        autoplayspeed:200,
+                    }
+                }
+       ]
         });
 
     </script>
