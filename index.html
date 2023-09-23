@@ -4,10 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=\, initial-scale=1.0">
-    <title>landing-page</title>
+    <title>Salty</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" href="./assets/img/favicon.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -16,17 +23,20 @@
             <!-- nav bar -->
             <nav class="d-flex align-items-center justify-content-between py-4">
                 <div class="d-flex align-items-center gap-72">
-                    <div class="d-flex align-items-center gap-2 ">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="42" height="35" viewBox="0 0 42 35" fill="none">
-                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M28.1572 0C29.2814 0 30.1929 0.922835 30.1929 2.06121V8.57029H36.7236C36.6938 12.6505 36.7047 17.9222 36.7147 22.7125C36.7189 24.7452 36.723 26.6914 36.7236 28.423C38.7825 29.6357 40.6822 31.2675 42 33.8299L41.0341 33.0961C38.7889 31.3908 35.1337 29.923 31.8145 29.3936C29.8939 29.0874 26.1886 29.3825 24.227 29.998L23.7966 30.133L24.3857 30.4795C25.2189 30.9696 25.9985 31.7461 26.2306 32.3172C26.4505 32.8582 26.5103 32.8725 27.7472 32.6793C29.1857 32.4548 33.9731 32.563 33.4062 32.8071C33.2934 32.8557 32.6616 32.9333 32.002 32.9796C29.8292 33.1321 27.0674 33.6453 25.4811 34.1914C25.3102 34.2502 25.1737 34.0837 24.9178 33.5043C24.1169 31.6912 22.2598 30.1182 20.1391 29.4571L19.561 29.2768L20.2355 29.3457C20.9479 29.4183 22.368 29.6842 22.8384 29.8328C23.0786 29.9088 23.1026 29.8801 23.0083 29.629C22.4981 28.2695 21.0224 26.714 19.4437 25.8716C18.0327 25.1187 16.7953 24.8538 15.0185 24.9246C13.6444 24.9793 11.9914 25.3011 11.9914 25.514C11.9914 25.5666 12.089 25.9553 12.2081 26.3778C12.591 27.7344 12.7668 29.1762 12.6133 29.7019C12.527 29.9976 12.4652 30.0803 12.4561 29.9126C12.4271 29.3816 11.6795 27.8683 10.9765 26.918C8.92324 24.1424 5.66458 22.7038 1.43027 22.7038H0C0.00256729 18.8605 0.00595093 12.4136 0.00359726 8.57029H6.35003V2.06121C6.35003 0.922835 7.26145 0 8.38575 0H28.1572ZM9.13575 8.57029V2.8206H27.4072V8.57029H9.13575ZM17.9469 12.6674C17.6392 12.8372 17.3875 13.0303 17.3875 13.0967C17.3875 13.163 17.8291 13.5924 18.3689 14.0508C19.7437 15.2187 21.4592 16.9793 21.4051 17.1671C21.3801 17.2537 20.5901 17.7731 19.6497 18.3215L17.9397 19.3185L16.4655 19.166C15.0981 19.0245 14.9693 19.0295 14.6905 19.2344C14.2459 19.5611 14.3123 19.7087 15.1318 20.2161C15.7813 20.6184 15.8795 20.7376 15.9187 21.1725C15.9581 21.6098 16.0117 21.6738 16.3653 21.707C16.715 21.7398 16.7876 21.8231 16.9273 22.3519C17.0155 22.6859 17.0877 23.0677 17.0877 23.2005C17.0877 23.5202 17.4439 23.6167 17.9703 23.4396C18.3323 23.3179 18.464 23.1338 18.8295 22.2391L19.2612 21.1825L21.2098 20.3661C22.2815 19.917 23.1999 19.5473 23.2507 19.5445C23.4127 19.5355 24.2953 21.2518 24.9692 22.8863C25.3667 23.8504 25.707 24.4833 25.8403 24.5061C25.9603 24.5268 26.3361 24.4287 26.6753 24.2883L27.2918 24.0328L27.1905 23.1251C27.0923 22.245 27.1011 22.2099 27.4846 21.965C28.0005 21.6356 27.9833 21.4483 27.4036 21.08L26.9273 20.7773L27.4036 20.4517C28.0128 20.0356 28.0036 19.8501 27.3572 19.5101C26.8628 19.2501 26.8343 19.198 26.8325 18.5515L26.8307 17.8679L28.5704 17.0342C30.4223 16.1467 31.3121 15.471 31.8067 14.5766C31.965 14.2902 32.0528 13.9492 32.0017 13.8186C31.8673 13.4746 30.949 13.3047 30.0077 13.4496C28.9345 13.6149 28.3767 13.8248 26.7793 14.6651C26.0093 15.07 25.3039 15.4014 25.2118 15.4014C25.1197 15.4014 24.7447 15.2545 24.3784 15.0749C23.8314 14.8066 23.6966 14.6677 23.6236 14.2971C23.5232 13.787 23.2563 13.6502 22.6976 13.8226C22.1352 13.9963 22.0342 13.9715 22.0342 13.6599C22.0342 13.5054 21.9442 13.2791 21.8344 13.157C21.658 12.9611 21.5698 12.9523 21.0843 13.0824C20.5666 13.2212 20.4838 13.2045 19.6729 12.7975C19.1991 12.5598 18.7428 12.3639 18.6589 12.3621C18.575 12.3602 18.2546 12.4976 17.9469 12.6674Z"
-                                fill="#2D3134" />
-                            <path
-                                d="M8.63321 30.4902C12.1233 30.8062 14.5754 32.1608 15.6375 34.3596C16.0338 35.1801 15.946 35.1991 15.0267 34.4915C12.7227 32.7183 10.1239 31.6072 6.52032 30.8549C3.36597 30.1965 7.70444 30.4061 8.63321 30.4902Z"
-                                fill="#2D3134" />
-                        </svg>
-                        <p class="m-0 p-0 bs-black1 ff-p fw-bold fs-lg">Salty</p>
-                    </div>
+                    <a class="list-unstyled text-decoration-none" href="">
+                        <div class="d-flex align-items-center gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="42" height="35" viewBox="0 0 42 35"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M28.1572 0C29.2814 0 30.1929 0.922835 30.1929 2.06121V8.57029H36.7236C36.6938 12.6505 36.7047 17.9222 36.7147 22.7125C36.7189 24.7452 36.723 26.6914 36.7236 28.423C38.7825 29.6357 40.6822 31.2675 42 33.8299L41.0341 33.0961C38.7889 31.3908 35.1337 29.923 31.8145 29.3936C29.8939 29.0874 26.1886 29.3825 24.227 29.998L23.7966 30.133L24.3857 30.4795C25.2189 30.9696 25.9985 31.7461 26.2306 32.3172C26.4505 32.8582 26.5103 32.8725 27.7472 32.6793C29.1857 32.4548 33.9731 32.563 33.4062 32.8071C33.2934 32.8557 32.6616 32.9333 32.002 32.9796C29.8292 33.1321 27.0674 33.6453 25.4811 34.1914C25.3102 34.2502 25.1737 34.0837 24.9178 33.5043C24.1169 31.6912 22.2598 30.1182 20.1391 29.4571L19.561 29.2768L20.2355 29.3457C20.9479 29.4183 22.368 29.6842 22.8384 29.8328C23.0786 29.9088 23.1026 29.8801 23.0083 29.629C22.4981 28.2695 21.0224 26.714 19.4437 25.8716C18.0327 25.1187 16.7953 24.8538 15.0185 24.9246C13.6444 24.9793 11.9914 25.3011 11.9914 25.514C11.9914 25.5666 12.089 25.9553 12.2081 26.3778C12.591 27.7344 12.7668 29.1762 12.6133 29.7019C12.527 29.9976 12.4652 30.0803 12.4561 29.9126C12.4271 29.3816 11.6795 27.8683 10.9765 26.918C8.92324 24.1424 5.66458 22.7038 1.43027 22.7038H0C0.00256729 18.8605 0.00595093 12.4136 0.00359726 8.57029H6.35003V2.06121C6.35003 0.922835 7.26145 0 8.38575 0H28.1572ZM9.13575 8.57029V2.8206H27.4072V8.57029H9.13575ZM17.9469 12.6674C17.6392 12.8372 17.3875 13.0303 17.3875 13.0967C17.3875 13.163 17.8291 13.5924 18.3689 14.0508C19.7437 15.2187 21.4592 16.9793 21.4051 17.1671C21.3801 17.2537 20.5901 17.7731 19.6497 18.3215L17.9397 19.3185L16.4655 19.166C15.0981 19.0245 14.9693 19.0295 14.6905 19.2344C14.2459 19.5611 14.3123 19.7087 15.1318 20.2161C15.7813 20.6184 15.8795 20.7376 15.9187 21.1725C15.9581 21.6098 16.0117 21.6738 16.3653 21.707C16.715 21.7398 16.7876 21.8231 16.9273 22.3519C17.0155 22.6859 17.0877 23.0677 17.0877 23.2005C17.0877 23.5202 17.4439 23.6167 17.9703 23.4396C18.3323 23.3179 18.464 23.1338 18.8295 22.2391L19.2612 21.1825L21.2098 20.3661C22.2815 19.917 23.1999 19.5473 23.2507 19.5445C23.4127 19.5355 24.2953 21.2518 24.9692 22.8863C25.3667 23.8504 25.707 24.4833 25.8403 24.5061C25.9603 24.5268 26.3361 24.4287 26.6753 24.2883L27.2918 24.0328L27.1905 23.1251C27.0923 22.245 27.1011 22.2099 27.4846 21.965C28.0005 21.6356 27.9833 21.4483 27.4036 21.08L26.9273 20.7773L27.4036 20.4517C28.0128 20.0356 28.0036 19.8501 27.3572 19.5101C26.8628 19.2501 26.8343 19.198 26.8325 18.5515L26.8307 17.8679L28.5704 17.0342C30.4223 16.1467 31.3121 15.471 31.8067 14.5766C31.965 14.2902 32.0528 13.9492 32.0017 13.8186C31.8673 13.4746 30.949 13.3047 30.0077 13.4496C28.9345 13.6149 28.3767 13.8248 26.7793 14.6651C26.0093 15.07 25.3039 15.4014 25.2118 15.4014C25.1197 15.4014 24.7447 15.2545 24.3784 15.0749C23.8314 14.8066 23.6966 14.6677 23.6236 14.2971C23.5232 13.787 23.2563 13.6502 22.6976 13.8226C22.1352 13.9963 22.0342 13.9715 22.0342 13.6599C22.0342 13.5054 21.9442 13.2791 21.8344 13.157C21.658 12.9611 21.5698 12.9523 21.0843 13.0824C20.5666 13.2212 20.4838 13.2045 19.6729 12.7975C19.1991 12.5598 18.7428 12.3639 18.6589 12.3621C18.575 12.3602 18.2546 12.4976 17.9469 12.6674Z"
+                                    fill="#2D3134" />
+                                <path
+                                    d="M8.63321 30.4902C12.1233 30.8062 14.5754 32.1608 15.6375 34.3596C16.0338 35.1801 15.946 35.1991 15.0267 34.4915C12.7227 32.7183 10.1239 31.6072 6.52032 30.8549C3.36597 30.1965 7.70444 30.4061 8.63321 30.4902Z"
+                                    fill="#2D3134" />
+                            </svg>
+                            <p class="m-0 p-0 bs-black1 ff-p fw-bold fs-lg">Salty</p>
+                        </div>
+                    </a>
                     <ul class="nav-item d-flex mobileView align-items-center gap-36 m-0 p-0">
                         <li class="nav-link "><a
                                 class="fs-sm ff-p fw-normal bs-black2 red text-decoration-none position-relative underLine home transition-4 list-unstyled"
@@ -72,7 +82,7 @@
                 </label>
             </nav>
             <!-- section 1 -->
-            <div id="home" class="row d-flex align-items-center pt-2 ">
+            <div id="home" class="row d-flex align-items-center pt-2 pb-5">
                 <div class="col-lg-6">
                     <p class="m-0 p-0 fs-8xl fw-bold ff-sen bs-black1 lh-1">Discover the Best Lovely Places</p>
                     <p class="m-0 p-0 pt-3 ff-inter fw-normal fs-base pe-4 lh-lg">Plan and book your perfect trip with
@@ -114,11 +124,16 @@
                                             </svg>
                                         </div>
                                     </div>
-                                    <span class="cursr-pointer"><svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54" fill="none">
-                                        <rect width="54" height="54" rx="27" fill="#F66F4D"/>
-                                        <path d="M25.692 34.839C30.7428 34.839 34.8372 30.7446 34.8372 25.6939C34.8372 20.6431 30.7428 16.5487 25.692 16.5487C20.6413 16.5487 16.5469 20.6431 16.5469 25.6939C16.5469 30.7446 20.6413 34.839 25.692 34.839Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M32.1593 32.1609L37.4504 37.452" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                      </svg></span>
+                                    <span class="cursr-pointer"><svg xmlns="http://www.w3.org/2000/svg" width="54"
+                                            height="54" viewBox="0 0 54 54" fill="none">
+                                            <rect width="54" height="54" rx="27" fill="#F66F4D" />
+                                            <path
+                                                d="M25.692 34.839C30.7428 34.839 34.8372 30.7446 34.8372 25.6939C34.8372 20.6431 30.7428 16.5487 25.692 16.5487C20.6413 16.5487 16.5469 20.6431 16.5469 25.6939C16.5469 30.7446 20.6413 34.839 25.692 34.839Z"
+                                                stroke="white" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path d="M32.1593 32.1609L37.4504 37.452" stroke="white" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg></span>
                                 </div>
                             </div>
                         </div>
@@ -161,11 +176,16 @@
                                             </svg>
                                         </div>
                                     </div>
-                                    <span class="cursr-pointer"><svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54" fill="none">
-                                        <rect width="54" height="54" rx="27" fill="#F66F4D"/>
-                                        <path d="M25.692 34.839C30.7428 34.839 34.8372 30.7446 34.8372 25.6939C34.8372 20.6431 30.7428 16.5487 25.692 16.5487C20.6413 16.5487 16.5469 20.6431 16.5469 25.6939C16.5469 30.7446 20.6413 34.839 25.692 34.839Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M32.1593 32.1609L37.4504 37.452" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                      </svg></span>
+                                    <span class="cursr-pointer"><svg xmlns="http://www.w3.org/2000/svg" width="54"
+                                            height="54" viewBox="0 0 54 54" fill="none">
+                                            <rect width="54" height="54" rx="27" fill="#F66F4D" />
+                                            <path
+                                                d="M25.692 34.839C30.7428 34.839 34.8372 30.7446 34.8372 25.6939C34.8372 20.6431 30.7428 16.5487 25.692 16.5487C20.6413 16.5487 16.5469 20.6431 16.5469 25.6939C16.5469 30.7446 20.6413 34.839 25.692 34.839Z"
+                                                stroke="white" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path d="M32.1593 32.1609L37.4504 37.452" stroke="white" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg></span>
                                 </div>
                             </div>
                         </div>
@@ -175,8 +195,77 @@
                     <img class="max-500 w-100" src="./assets/img/section1img.png" alt="">
                 </div>
             </div>
+            <!-- section 2  -->
+            <div class="position-relative pt-2 pt-lg-5 pt-md-4 pt-sm-3">
+                <p class="bs-black1 ff-inter fs-5xl fw-semibold pt-2 pt-lg-5 pt-md-4 pt-sm-3">Categories</p>
+                <p class="bs-black4 ff-inter fs-sm fw-normal max-370">Here are lots of interesting destinations to
+                    visit, but
+                    don’t be confused—they’re already grouped by category.</p>
+                <div class="slider pt-5 ">
+                    <div class="d-flex align-items-center flex-column">
+                        <img src="./assets/img/slider1-img1.png" alt="">
+                        <p>Beach</p>
+                    </div>
+                    <div class="d-flex align-items-center flex-column">
+                        <img src="./assets/img/slider1-img2.png" alt="">
+                        <p>Desert</p>
+                    </div>
+                    <div class="d-flex align-items-center flex-column">
+                        <img src="./assets/img/slider1-img3.png" alt="">
+                        <p>Mountain</p>
+                    </div>
+                    <div class="d-flex align-items-center flex-column">
+                        <img src="./assets/img/slider1-img4.png" alt="">
+                        <p>Temple</p>
+                    </div>
+                    <div class="d-flex align-items-center flex-column">
+                        <img src="./assets/img/slider1-img5.png" alt="">
+                        <p>Tower</p>
+                    </div>
+                    <div class="d-flex align-items-center flex-column">
+                        <img src="./assets/img/slider1-img6.png" alt="">
+                        <p>Pyramid</p>
+                    </div>
+                    <div class="d-flex align-items-center flex-column">
+                        <img src="./assets/img/slider1-img1.png" alt="">
+                        <p>Beach</p>
+                    </div>
+                    <div class="d-flex align-items-center flex-column">
+                        <img src="./assets/img/slider1-img2.png" alt="">
+                        <p>Desert</p>
+                    </div>
+                    <div class="d-flex align-items-center flex-column">
+                        <img src="./assets/img/slider1-img3.png" alt="">
+                        <p>Mountain</p>
+                    </div>
+                    <div class="d-flex align-items-center flex-column">
+                        <img src="./assets/img/slider1-img4.png" alt="">
+                        <p>Temple</p>
+                    </div>
+                    <div class="d-flex align-items-center flex-column">
+                        <img src="./assets/img/slider1-img5.png" alt="">
+                        <p>Tower</p>
+                    </div>
+                    <div class="d-flex align-items-center flex-column">
+                        <img src="./assets/img/slider1-img6.png" alt="">
+                        <p>Pyramid</p>
+                    </div>
+                </div>
+                <div class="prev position-absolute">
+                    <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 13L1 7L7 1" stroke="#2D3134" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div class="next position-absolute"><svg width="8" height="14" viewBox="0 0 8 14" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 13L7 7L1 1" stroke="#2D3134" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </div>
+            </div>
             <!-- section 3 -->
-            <div id="Aboutus" class="row d-flex align-items-center pt-58">
+            <div id="Aboutus" class="row d-flex align-items-center pt-lg-5 pt-md-4 pt-sm-3 pt-2 pb-5 ">
                 <div class="col-lg-6 d-none d-lg-block ">
                     <img class="w-100 " src="./assets/img/section3img.png" alt="">
                 </div>
@@ -216,6 +305,140 @@
                 </div>
                 <div class="col-lg-6 d-lg-none d-block pt-4 ">
                     <img class="w-100 " src="./assets/img/section3img.png" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- section 4  -->
+        <div class="position-relative pt-lg-5 pt-md-4 pt-sm-3 pt-2">
+            <div class="container-xl position-relative pt-lg-5 pt-md-4 pt-sm-3 pt-2">
+                <p class="bs-black1 ff-inter fs-5xl mw-400 fw-semibold">Find Popular Destination</p>
+                <div class="prev1 position-absolute">
+                    <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 13L1 7L7 1" stroke="#2D3134" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div class="next1 position-absolute">
+                    <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 13L7 7L1 1" stroke="#2D3134" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </div>
+            </div>
+            <div class="slider2 overflow-hidden ml_5">
+                <div class="card_sec2 mx-3 w-375">
+                    <div class="d-flex align-items-center justify-content-center p-3">
+                        <img src="./assets/img/slider2-img1.png" alt="" width="100%">
+                    </div>
+                    <div>
+                        <p class="bs-black1 ff-inter fs-2xl fw-semibold lh-base pb-2 ps-4 m-0 ">Mountain Hiking Tour</p>
+                        <p class="bs-black4 ff-inter fs-xs fw-normal m-0 pb-35 ps-4">Mountain Hiking Tour</p>
+                        <div class="d-flex justify-content-between px-4 pb-4 ">
+                            <p class="bs-black1 ff-inter fs-2xl fw-semibold mb-0">$89 <span
+                                    class="bs-black4 ff-inter fs-sm fw-normal">/Person </span></p>
+                            <button class="bg-transparent  bs-black1 ff-inter fs-xs fw-normal btn1 ">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_sec2 mx-3 w-375">
+                    <div class="d-flex align-items-center justify-content-center p-3">
+                        <img src="./assets/img/slider2-img2.png" alt="" width="100%">
+                    </div>
+                    <div>
+                        <p class="bs-black1 ff-inter fs-2xl fw-semibold lh-base pb-2 ps-4 m-0 ">Machu Picchu, Peru</p>
+                        <p class="bs-black4 ff-inter fs-xs fw-normal m-0 pb-35 ps-4">Machu Picchu, Peru</p>
+                        <div class="d-flex justify-content-between px-4 pb-4">
+                            <p class="bs-black1 ff-inter fs-2xl fw-semibold mb-0">$99 <span
+                                    class="bs-black4 ff-inter fs-sm fw-normal">/Person </span></p>
+                            <button class="bg-transparent  bs-black1 ff-inter fs-xs fw-normal btn1 ">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_sec2 mx-3 w-375">
+                    <div class="d-flex align-items-center justify-content-center p-3">
+                        <img src="./assets/img/slider2-img3.png" alt="" width="100%">
+                    </div>
+                    <div>
+                        <p class="bs-black1 ff-inter fs-2xl fw-semibold lh-base pb-2 ps-4 m-0 ">The Grand Canyon,
+                            Arizona</p>
+                        <p class="bs-black4 ff-inter fs-xs fw-normal m-0 pb-35 pb-2 ps-4">Mountain Hiking Tour</p>
+                        <div class="d-flex justify-content-between px-4 pb-4">
+                            <p class="bs-black1 ff-inter fs-2xl fw-semibold mb-0">$70 <span
+                                    class="bs-black4 ff-inter fs-sm fw-normal">/Person </span></p>
+                            <button class="bg-transparent  bs-black1 ff-inter fs-xs fw-normal btn1">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_sec2 mx-3 w-375">
+                    <div class="d-flex align-items-center justify-content-center p-3">
+                        <img src="./assets/img/slider2-img1.png" alt="" width="100%">
+                    </div>
+                    <div>
+                        <p class="bs-black1 ff-inter fs-2xl fw-semibold lh-base pb-2 ps-4 m-0 ">Rome, Italy</p>
+                        <p class="bs-black4 ff-inter fs-xs fw-normal m-0 pb-35 ps-4">Mountain Hiking Tour</p>
+                        <div class="d-flex justify-content-between px-4 pb-4">
+                            <p class="bs-black1 ff-inter fs-2xl fw-semibold mb-0">$99 <span
+                                    class="bs-black4 ff-inter fs-sm fw-normal">/Person </span></p>
+                            <button class="bg-transparent  bs-black1 ff-inter fs-xs fw-normal btn1">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_sec2 mx-3 w-375">
+                    <div class="d-flex align-items-center justify-content-center p-3">
+                        <img src="./assets/img/slider2-img1.png" alt="" width="100%">
+                    </div>
+                    <div>
+                        <p class="bs-black1 ff-inter fs-2xl fw-semibold lh-base pb-2 ps-4 m-0 ">Mountain Hiking Tour</p>
+                        <p class="bs-black4 ff-inter fs-xs fw-normal m-0 pb-35 ps-4">Mountain Hiking Tour</p>
+                        <div class="d-flex justify-content-between px-4 pb-4">
+                            <p class="bs-black1 ff-inter fs-2xl fw-semibold mb-0">$89 <span
+                                    class="bs-black4 ff-inter fs-sm fw-normal">/Person </span></p>
+                            <button class="bg-transparent  bs-black1 ff-inter fs-xs fw-normal btn1">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_sec2 mx-3 w-375">
+                    <div class="d-flex align-items-center justify-content-center p-3">
+                        <img src="./assets/img/slider2-img2.png" alt="" width="100%">
+                    </div>
+                    <div>
+                        <p class="bs-black1 ff-inter fs-2xl fw-semibold lh-base pb-2 ps-4 m-0 ">Machu Picchu, Peru</p>
+                        <p class="bs-black4 ff-inter fs-xs fw-normal m-0 pb-35 ps-4">Machu Picchu, Peru</p>
+                        <div class="d-flex justify-content-between px-4 pb-4">
+                            <p class="bs-black1 ff-inter fs-2xl fw-semibold mb-0">$99 <span
+                                    class="bs-black4 ff-inter fs-sm fw-normal">/Person </span></p>
+                            <button class="bg-transparent  bs-black1 ff-inter fs-xs fw-normal btn1 ">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_sec2 mx-3 w-375">
+                    <div class="d-flex align-items-center justify-content-center p-3">
+                        <img src="./assets/img/slider2-img3.png" alt="" width="100%">
+                    </div>
+                    <div>
+                        <p class="bs-black1 ff-inter fs-2xl fw-semibold lh-base pb-2 ps-4 m-0 ">The Grand Canyon,
+                            Arizona</p>
+                        <p class="bs-black4 ff-inter fs-xs fw-normal m-0 pb-35 pb-2 ps-4">Mountain Hiking Tour</p>
+                        <div class="d-flex justify-content-between px-4 pb-4">
+                            <p class="bs-black1 ff-inter fs-2xl fw-semibold mb-0">$70 <span
+                                    class="bs-black4 ff-inter fs-sm fw-normal">/Person </span></p>
+                            <button class="bg-transparent  bs-black1 ff-inter fs-xs fw-normal btn1 ">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_sec2 mx-3">
+                    <div class="d-flex align-items-center justify-content-center p-3">
+                        <img src="./assets/img/slider2-img1.png" alt="" width="100%">
+                    </div>
+                    <div>
+                        <p class="bs-black1 ff-inter fs-2xl fw-semibold lh-base pb-2 ps-4 m-0 ">Rome, Italy</p>
+                        <p class="bs-black4 ff-inter fs-xs fw-normal m-0 pb-35 ps-4">Mountain Hiking Tour</p>
+                        <div class="d-flex justify-content-between px-4 pb-4">
+                            <p class="bs-black1 ff-inter fs-2xl fw-semibold mb-0">$99 <span
+                                    class="bs-black4 ff-inter fs-sm fw-normal">/Person </span></p>
+                            <button class="bg-transparent  bs-black1 ff-inter fs-xs fw-normal btn1">Book Now</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -374,9 +597,86 @@
                     <div class="col-lg-6 d-flex justify-content-center ">
                         <img class="w-100 max-407" src="./assets/img/section6img.png" alt="section6img">
                     </div>
-                    <div class="col-lg-6 pt-5 pt-lg-0">
+                    <div class="col-lg-6 pt-5 pt-lg-0 position-relative ">
                         <span class="line d-flex "></span>
                         <p class="m-0 p-0 fs-5xl fw-semibold ff-inter bs-black1 lh-sm ">A customer said About us:</p>
+                        <div class="slider3 pt-4">
+                            <div class="card_sec3 mx-2">
+                                <div class="card-body">
+                                    <p class=" bs-black4 ff-inter fs-base fw-normal lh-base ">Salty helped me a lot in
+                                        finding
+                                        the best
+                                        place for our first outdoor adventure trip. They responded very quickly and gave
+                                        me
+                                        a
+                                        detailed
+                                        account of the place—its history, as well as its best features.</p>
+                                    <img class="mw-107" src="./assets/img/Star.png" alt="">
+                                    <div class="">
+                                        <p class="bs-black1 ff-inter fs-lg fw-medium p-0 m-0 pt-3 ">Andrew Sarma</p>
+                                        <p class="bs-black4 ff-inter fs-xxs fw-normal p-0 m-0">Enterpreneur</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card_sec3 mx-2">
+                                <p class=" bs-black4 ff-inter fs-base fw-normal lh-base ">Salty helped me a lot in
+                                    finding
+                                    the best
+                                    place for our first outdoor adventure trip. They responded very quickly and gave me
+                                    a
+                                    detailed
+                                    account of the place—its history, as well as its best features.</p>
+                                <img class="mw-107" src="./assets/img/Star.png" alt="">
+                                <div class="">
+                                    <p class="bs-black1 ff-inter fs-lg fw-medium p-0 m-0 pt-3 ">Deepak Jhajhria</p>
+                                    <p class="bs-black4 ff-inter fs-xxs fw-normal p-0 m-0">Leader</p>
+                                </div>
+
+                            </div>
+                            <div class="card_sec3 mx-2">
+                                <p class=" bs-black4 ff-inter fs-base fw-normal lh-base ">Salty helped me a lot in
+                                    finding
+                                    the best
+                                    place for our first outdoor adventure trip. They responded very quickly and gave me
+                                    a
+                                    detailed
+                                    account of the place—its history, as well as its best features.</p>
+                                <img class="mw-107" src="./assets/img/Star.png" alt="">
+                                <div class="">
+                                    <p class="bs-black1 ff-inter fs-lg fw-medium p-0 m-0 pt-3 ">Andrew Sarma</p>
+                                    <p class="bs-black4 ff-inter fs-xxs fw-normal p-0 m-0">Enterpreneur</p>
+                                </div>
+
+                            </div>
+                            <div class="card_sec3 mx-2">
+                                <p class=" bs-black4 ff-inter fs-base fw-normal lh-base ">Salty helped me a lot in
+                                    finding
+                                    the best
+                                    place for our first outdoor adventure trip. They responded very quickly and gave me
+                                    a
+                                    detailed
+                                    account of the place—its history, as well as its best features.</p>
+                                <img class="mw-107" src="./assets/img/Star.png" alt="">
+                                <div class="">
+                                    <p class="bs-black1 ff-inter fs-lg fw-medium p-0 m-0 pt-3 ">Gopal Arora</p>
+                                    <p class="bs-black4 ff-inter fs-xxs fw-normal p-0 m-0">Web developer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="prev2 position-absolute">
+                            <svg width="6" height="12" viewBox="0 0 6 12" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5.22168 10.4443L0.777235 5.99986L5.22168 1.55542" stroke="#2D3134"
+                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <div class="next2 position-absolute">
+                            <svg width="6" height="12" viewBox="0 0 6 12" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.77832 10.4443L5.22276 5.99986L0.77832 1.55542" stroke="#2D3134"
+                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -537,7 +837,95 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./assets/js/app.js"></script>
+    <script>
+        $('.slider').slick({
+            infinite: true,
+            slidesToShow: 6,
+            slidesToScroll: 3,
+            prevArrow: '.prev',
+            nextArrow: '.next',
+
+            responsive: [
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 4,
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2,
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        autoplay: true,
+                        autoplayspeed: 2000,
+                    }
+                }
+            ]
+        });
+        $('.slider2').slick({
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            prevArrow: '.prev1',
+            nextArrow: '.next1',
+
+            responsive: [
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 2,
+                    }
+                },
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                    }
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        autoplay: true,
+                        autoplayspeed: 200,
+                    }
+                }
+            ]
+        });
+        $('.slider3').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            prevArrow: '.prev2',
+            nextArrow: '.next2',
+            responsive: [
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        autoplay: true,
+                        autoplayspeed: 200,
+                    }
+                }
+            ]
+        });
+    </script>
 </body>
 
 </html>
